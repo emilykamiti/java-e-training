@@ -7,20 +7,15 @@ import com.concepts.oop.oop.Panther;
 
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ){
         Fish fish = new Fish();
-        fish.eat();
-        fish.rest();
         fish.move();
 
         Hypopotamous hypo = new Hypopotamous();
-        hypo.eat();
-        hypo.rest();
+        hypo.move();
 
         Panther panther = new Panther();
-        panther.eat();
-        panther.rest();
+        panther.move();
 
         
     }
