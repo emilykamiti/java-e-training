@@ -1,9 +1,9 @@
 package com.concepts.oop.oop;
 
-public class Fish implements SwimI{
+public class Fish implements SwimI {
 
     @Override
     public void swim() {
-    System.out.println("- Fish");
+        System.out.println("- Fish");
     }
 }

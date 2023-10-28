@@ -6,5 +6,4 @@ public class Panther implements WalkI {
     public void walk() {
         System.out.println("- Panthers");
     }
-
 }
