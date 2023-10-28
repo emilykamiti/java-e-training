@@ -7,4 +7,8 @@ public class Panther extends Animal {
         System.out.println("Panthers: Move on land");
     }
 
+    @Override
+    public void eat(){
+        System.out.println("Panthers: Are carnivorous");
+    }
 }
