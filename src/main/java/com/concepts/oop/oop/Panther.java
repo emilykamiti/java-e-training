@@ -1,10 +1,12 @@
 package com.concepts.oop.oop;
 
-public class Panther extends Animal {
+import com.concepts.oop.WalkI;
+
+public class Panther implements WalkI {
 
     @Override
-    public void rest(){
-        System.out.println("Panthers: Rest on land");
+    public void walk() {
+        System.out.println("- Panthers");
     }
 
 }

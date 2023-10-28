@@ -1,10 +1,9 @@
 package com.concepts.oop.oop;
 
-public class Fish extends Animal {
+public class Fish implements SwimI{
 
     @Override
-    public void rest() {
-        System.out.println("Fish: Rest in water");
+    public void swim() {
+    System.out.println("- Fish");
     }
-
 }
